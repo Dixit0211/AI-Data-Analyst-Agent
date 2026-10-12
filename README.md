@@ -4,7 +4,7 @@
 
 InsightForge AI lets users upload CSV and Excel data, ask questions in natural language, inspect results calculated with Pandas, generate charts, and explore machine-learning operations through a modern three-column interface. It is built for local development and academic demonstrations, **not public multi-user deployment**.
 
-> **Current branch:** `v4` · **Local model:** `qwen3:4b-instruct` · **Frontend:** React / TypeScript · **Backend:** FastAPI / Python
+> **Current branch:** `main` · **Local model:** `qwen3:4b-instruct` · **Frontend:** React / TypeScript · **Backend:** FastAPI / Python
 
 ## V4 features
 
@@ -83,17 +83,17 @@ The original **Gradio** app (`app.py`) remains as an optional legacy interface. 
 - **Node.js LTS** with `npm`.
 - **Ollama** installed and running locally, with the Qwen3 model downloaded.
 
-Clone V4 if this is your first setup:
+Clone if this is your first setup:
 
 ```powershell
-git clone --branch v4 https://github.com/chauhanyagnik34/Ai-Data-Analyst-Agent-ML-Project.git
-cd Ai-Data-Analyst-Agent-ML-Project
+git clone https://github.com/Dixit0211/AI-Data-Analyst-Agent.git
+cd AI-Data-Analyst-Agent
 ```
 
 If you already have the repository:
 
 ```powershell
-cd C:\Users\LOQ\Ai-Data-Analyst-Agent-ML-Project
+cd C:\Users\Dixit\AI-Data-Analyst
 git switch v4
 ```
 
@@ -182,7 +182,7 @@ For exact request/response schemas, see **http://127.0.0.1:8000/api/docs**.
 ## Repository structure
 
 ```text
-Ai-Data-Analyst-Agent-ML-Project/
+AI-Data-Analyst-Agent/
 ├── frontend/
 │   ├── src/
 │   │   ├── App.tsx              # Navigation, chat and visualization workspace
@@ -270,6 +270,6 @@ Its usual URL is **http://127.0.0.1:7860**. The primary V4 React frontend uses *
 
 ---
 
-**Repository:** [AI Data Analyst Agent](https://github.com/chauhanyagnik34/Ai-Data-Analyst-Agent-ML-Project) · [V4 branch](https://github.com/chauhanyagnik34/Ai-Data-Analyst-Agent-ML-Project/tree/v4)
+**Repository:** [AI Data Analyst Agent](https://github.com/Dixit0211/AI-Data-Analyst-Agent.git)
 
-*InsightForge AI V4 — local AI-assisted data analysis in a responsive three-column workspace.*
+*InsightForge AI — local AI-assisted data analysis in a responsive three-column workspace.*
